@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+.cinzel-medium {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+@import "tailwindcss";
+
+/* Adjusting background opacity for all sections */
+.herosection {
+  background: rgba(0, 0, 0, 0.9); /* 90% opacity */
+}
+
+#about {
+  background: rgba(0, 0, 0, 0.9); /* 90% opacity */
+}
+
+#timeline {
+  background: rgba(0, 0, 0, 0.9); /* 90% opacity */
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.9); /* 90% opacity */
+}
+
+/* Adjusting hamburger menu button opacity */
+nav .flex-col {
+  opacity: 0.9; /* 90% opacity */
+}
+
+/* Styling for 'Our Hero Classes' section */
+.our-hero-classes {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+  padding: 6rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.our-hero-classes h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
+
+.our-hero-classes p {
+  font-size: 1.125rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.our-hero-classes button {
+  background: #3182ce;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.our-hero-classes button:hover {
+  background: #2b6cb0;
+  transform: scale(1.05);
+}
