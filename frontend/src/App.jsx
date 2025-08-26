@@ -238,14 +238,14 @@ function App() {
       {/* Fixed Hero Section */}
       <div className="herosection fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center background z-0">
         <video
-          src="src/assets/bg.mp4"
+          src="/assets/bg.mp4"
           className="bg-hero absolute top-0 left-0 h-full w-full object-cover z-[-1]"
           autoPlay
           loop
           muted
         ></video>
         <img
-          src="src/assets/logo1.png"
+          src="/assets/logo1.png"
           alt=""
           className="logo h-[19em] w-[19em] z-10 transition-all duration-300"
           style={{
@@ -309,7 +309,7 @@ function App() {
             <div className="flex justify-center lg:justify-end relative pb-16">
               <img
                 ref={imageRef}
-                src="src/assets/demon.png"
+                src="/assets/demon.png"
                 alt="Demon Slayer Character"
                 className={`w-full max-w-xl h-auto object-contain translate-y-16 z-20 transition-all duration-1000 ease-out ${
                   isImageVisible
@@ -362,7 +362,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char1.png"
+                src="/assets/char1.png"
                 alt="Character 1"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -400,7 +400,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char2.png"
+                src="/assets/char2.png"
                 alt="Character 2"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -438,7 +438,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char3.png"
+                src="/assets/char3.png"
                 alt="Character 3"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -474,7 +474,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char4.png"
+                src="/assets/char4.png"
                 alt="Character 4"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -512,7 +512,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char5.png"
+                src="/assets/char5.png"
                 alt="Character 5"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -550,7 +550,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char6.png"
+                src="/assets/char6.png"
                 alt="Character 6"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -588,7 +588,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char7.png"
+                src="/assets/char7.png"
                 alt="Character 7"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -626,7 +626,7 @@ function App() {
             >
               {/* Character Image */}
               <img
-                src="src/assets/char1.png"
+                src="/assets/char1.png"
                 alt="Character 1"
                 className="absolute bottom-0 right-0 w-20 h-20 object-contain opacity-60 z-0"
               />
@@ -933,7 +933,7 @@ function App() {
                 >
                   {/* Character Image */}
                   <img
-                    src="src/assets/char5.png"
+                    src="/assets/char5.png"
                     alt="Character 5"
                     className="absolute bottom-0 right-0 w-16 h-16 object-contain opacity-40 z-0"
                   />
@@ -966,7 +966,7 @@ function App() {
                 >
                   {/* Character Image */}
                   <img
-                    src="src/assets/char6.png"
+                    src="/assets/char6.png"
                     alt="Character 6"
                     className="absolute bottom-0 right-0 w-16 h-16 object-contain opacity-40 z-0"
                   />
@@ -999,7 +999,7 @@ function App() {
                 >
                   {/* Character Image */}
                   <img
-                    src="src/assets/char7.png"
+                    src="/assets/char7.png"
                     alt="Character 7"
                     className="absolute bottom-0 right-0 w-16 h-16 object-contain opacity-40 z-0"
                   />
@@ -1032,7 +1032,7 @@ function App() {
                 >
                   {/* Character Image */}
                   <img
-                    src="src/assets/char1.png"
+                    src="/assets/char1.png"
                     alt="Character 1"
                     className="absolute bottom-0 right-0 w-16 h-16 object-contain opacity-40 z-0"
                   />
@@ -1055,7 +1055,7 @@ function App() {
         {/* Group Image at bottom-left of Timeline section */}
         <div className="absolute bottom-0 left-48">
           <img
-            src="src/assets/group.png"
+            src="/assets/group.png"
             alt="Demon Slayer Group"
             className="w-128 h-128 md:w-120 md:h-55 object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
